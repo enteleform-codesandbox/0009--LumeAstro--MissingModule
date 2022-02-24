@@ -1,0 +1,22 @@
+
+html,
+body{
+	width:   100%;
+	height:  100%;
+}
+
+.Lume.Container{
+	display:          flex;
+	justify-content:  center;
+	align-items:      center;
+	width:            1000px;
+	height:           1000px;
+	scale:            0.5;
+}
+
+.Lume.Container > lume-scene > lume-node,
+lume-scene{
+	width:   100% !important;
+	height:  100% !important;
+	color:   transparent !important;
+}
